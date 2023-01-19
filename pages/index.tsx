@@ -1,4 +1,5 @@
 import { Inter } from "@next/font/google";
+import Head from "next/head";
 import Image from "next/image";
 import classes from "./index.module.css";
 
@@ -7,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className="m-20 flex items-center justify-center space-x-40">
+      <Head>
+        <title>Home</title>
+      </Head>
       <div id="text" className="flex flex-col">
         <span className="font text-xl text-indigo-10">
           Hello there <span className={`${classes.wave}`}>👋</span> I am
