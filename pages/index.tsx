@@ -6,18 +6,23 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="flex flex-col px-20 py-20">
-      <span className="text-indigo-10">
-        Hello there <span className={`${classes.wave}`}>👋</span> I am
-      </span>
-      <span className="text-xl font-bold">Manhua Lu</span>
-      <span className="text-sm text-gray-10">3rd year Computer Science and Commerce university student</span>
+    <div className="mx-auto flex items-center justify-center space-x-40 py-20">
+      <div id="text" className="flex flex-col">
+        <span className="font text-lg text-indigo-10">
+          Hello there <span className={`${classes.wave}`}>👋</span> I am
+        </span>
+        <span className="text-6xl font-bold">Manhua Lu</span>
+        <span className="text-md text-gray-10">
+          A 3rd year Computer Science and Commerce student
+        </span>
+      </div>
+
       <Image
         src="/manhua.jpg"
         alt="Manhua"
-        width="300"
-        height="300"
-        className="rounded-full"
+        width="500"
+        height="500"
+        className="h-auto rounded-full shadow-lg"
       ></Image>
     </div>
   );
