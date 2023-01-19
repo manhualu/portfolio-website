@@ -17,7 +17,7 @@ export default function Home() {
         </span>
         <span className="text-6xl font-bold">Manhua Lu</span>
         <span className="text-md text-gray-10">
-          A 3rd year Computer Science and Commerce student
+          A 3rd year Computer Science and Commerce (Finance) student
         </span>
       </div>
 
