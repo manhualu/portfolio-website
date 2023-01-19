@@ -19,12 +19,12 @@ const Header = () => {
           <ul className="text-md mt-0 flex flex-row space-x-8 p-4">
             <li>
               <Link href="/">
-                <span className="">Home</span>
+                <span className="text-gray-700 dark:text-gray-400 dark:hover:text-black">Home</span>
               </Link>
             </li>
             <li>
               <Link
-                href="/Projects"
+                href="Projects"
                 className="text-gray-700 dark:text-gray-400 dark:hover:text-black"
               >
                 Projects

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="mx-auto flex items-center justify-center space-x-40 py-20">
+    <div className="m-20 flex items-center justify-center space-x-40">
       <div id="text" className="flex flex-col">
         <span className="font text-xl text-indigo-10">
           Hello there <span className={`${classes.wave}`}>👋</span> I am
