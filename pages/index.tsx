@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="mx-auto flex items-center justify-center space-x-40 py-20">
       <div id="text" className="flex flex-col">
-        <span className="font text-lg text-indigo-10">
+        <span className="font text-xl text-indigo-10">
           Hello there <span className={`${classes.wave}`}>👋</span> I am
         </span>
         <span className="text-6xl font-bold">Manhua Lu</span>
