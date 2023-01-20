@@ -72,7 +72,7 @@ const Projects = () => {
               </p>
               <p className="mb-2 text-sm text-gray-700">
                 A web application I created to easier track the classes I am
-                tutoring and store my students’ exam marks, calculate averages
+                tutoring and store my students&apos; exam marks, calculate averages
                 and view progress. Functionality is currently still limited.
               </p>
               <ul className="flex items-center justify-between text-xs text-indigo-10">

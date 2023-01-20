@@ -21,7 +21,7 @@ const About = () => {
         </p>
         <br></br>
         <p className="text-lg">
-          I'm also a
+          I&apos;m also a
           <span className="font-bold"> UNSW CSESoc Development Director</span>,
           where I lead a team of 10 to continuously improve and deploy new
           features for Notangles. This involves utilising Jira + Confluence,
@@ -30,7 +30,7 @@ const About = () => {
         </p>
         <br></br>
         <p className="text-lg">
-          I've also been a{" "}
+          I&apos;ve also been a{" "}
           <span className="font-bold"> CSESoc Peer Mentor</span>, where I led
           weekly meetups to help first year students transition to university in
           their first semester and feel happy + safe 🧡.
@@ -44,9 +44,9 @@ const About = () => {
         </p>
         <br></br>
         <p className="text-lg">
-          Most of the time, you’ll either catch me eating 🥞 or see me on the
-          hunt for new music 🎶. I’m also always on the lookout for cool
-          photo/vid opportunities 🌇 and trying out new food places.
+          Most of the time, you&apos;ll either catch me eating 🥞 or see me on
+          the hunt for new music 🎶. I&apos;m also always on the lookout for
+          cool photo/vid opportunities 🌇 and trying out new food places.
         </p>
       </div>
 

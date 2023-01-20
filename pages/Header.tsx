@@ -12,7 +12,7 @@ const Header = () => {
             src="/frog-chair-dance.gif"
             alt="frog chair dancing"
             width="40"
-            height="24"
+            height="40"
           />
           <span className="text-xl font-bold">Manhua</span>
         </Link>
@@ -54,7 +54,7 @@ const Header = () => {
                 <HoverCard.Trigger asChild>
                   <a
                     href="/Manhua_Lu_Resume_2023.pdf"
-                    className="rounded border border-black px-3 py-3 text-gray-700 dark:text-gray-400 dark:hover:text-black"
+                    className="rounded border border-gray-200 px-3 py-3 text-gray-700 hover:border-black dark:text-gray-400 dark:hover:text-black"
                     download
                   >
                     Resume
