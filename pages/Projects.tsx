@@ -29,7 +29,7 @@ const Projects = () => {
                   href="https://notangles.csesoc.app/"
                   target="_blank"
                   title="Heading Link"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   Notangles
                 </a>
@@ -52,7 +52,7 @@ const Projects = () => {
                   <Link
                     href="https://github.com/csesoc/notangles"
                     target="_blank"
-                    rel="noopener"
+                    rel="noreferrer"
                   >
                     <Image
                       src="/github-logo.png"
@@ -91,7 +91,7 @@ const Projects = () => {
                   <Link
                     href="https://github.com/manhualu/markbook"
                     target="_blank"
-                    rel="noopener"
+                    rel="noreferrer"
                   >
                     <Image
                       src="/github-logo.png"
@@ -146,7 +146,7 @@ const Projects = () => {
                   <Link
                     href="https://github.com/manhualu/portfolio-website"
                     target="_blank"
-                    rel="noopener"
+                    rel="noreferrer"
                   >
                     <Image
                       src="/github-logo.png"
