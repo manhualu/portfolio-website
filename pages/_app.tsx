@@ -1,11 +1,11 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { Footer } from "./Footer";
+import Footer from "./Footer";
 import Header from "./Header";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className="flex flex-col justify-between h-screen">
+    <div className="flex h-screen flex-col justify-between">
       <Header />
       <Component {...pageProps} />
       <Footer />
