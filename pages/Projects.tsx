@@ -29,6 +29,7 @@ const Projects = () => {
                   href="https://notangles.csesoc.app/"
                   target="_blank"
                   title="Heading Link"
+                  rel="noopener"
                 >
                   Notangles
                 </a>
@@ -51,6 +52,7 @@ const Projects = () => {
                   <Link
                     href="https://github.com/csesoc/notangles"
                     target="_blank"
+                    rel="noopener"
                   >
                     <Image
                       src="/github-logo.png"
@@ -72,8 +74,9 @@ const Projects = () => {
               </p>
               <p className="mb-2 text-sm text-gray-700">
                 A web application I created to easier track the classes I am
-                tutoring and store my students&apos; exam marks, calculate averages
-                and view progress. Functionality is currently still limited.
+                tutoring and store my students&apos; exam marks, calculate
+                averages and view progress. Functionality is currently still
+                limited.
               </p>
               <ul className="flex items-center justify-between text-xs text-indigo-10">
                 <li>TypeScript</li>
@@ -88,6 +91,7 @@ const Projects = () => {
                   <Link
                     href="https://github.com/manhualu/markbook"
                     target="_blank"
+                    rel="noopener"
                   >
                     <Image
                       src="/github-logo.png"
@@ -142,6 +146,7 @@ const Projects = () => {
                   <Link
                     href="https://github.com/manhualu/portfolio-website"
                     target="_blank"
+                    rel="noopener"
                   >
                     <Image
                       src="/github-logo.png"
