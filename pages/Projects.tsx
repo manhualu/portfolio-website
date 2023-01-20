@@ -129,7 +129,8 @@ const Projects = () => {
               </p>
               <p className="mb-2 text-sm text-gray-700">
                 The website you are on right now! 😁 Still needs to be more
-                responsive and compatible for different screens.
+                responsive, compatible for different screens and support dark
+                mode.
               </p>
               <ul className="flex items-center justify-between text-xs text-indigo-10">
                 <li>Next.js</li>

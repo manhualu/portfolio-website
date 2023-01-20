@@ -46,7 +46,7 @@ const About = () => {
         <p className="text-lg">
           Most of the time, you’ll either catch me eating 🥞 or see me on the
           hunt for new music 🎶. I’m also always on the lookout for cool
-          photo/vid opportunities and trying out new food places.
+          photo/vid opportunities 🌇 and trying out new food places.
         </p>
       </div>
 

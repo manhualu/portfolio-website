@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="m-20 flex items-center justify-center space-x-40">
+    <div className="flex items-center justify-center space-x-20">
       <Head>
         <title>Home</title>
       </Head>
@@ -24,8 +24,8 @@ export default function Home() {
       <Image
         src="/manhua.jpg"
         alt="Manhua"
-        width="500"
-        height="500"
+        width="400"
+        height="400"
         className="h-auto rounded-full shadow-lg"
       ></Image>
     </div>

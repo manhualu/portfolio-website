@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import * as HoverCard from "@radix-ui/react-hover-card";
 
 const Header = () => {
   return (
@@ -19,7 +20,9 @@ const Header = () => {
           <ul className="text-md mt-0 flex flex-row space-x-8 p-4">
             <li>
               <Link href="/">
-                <span className="text-gray-700 dark:text-gray-400 dark:hover:text-black">Home</span>
+                <span className="text-gray-700 dark:text-gray-400 dark:hover:text-black">
+                  Home
+                </span>
               </Link>
             </li>
             <li>
@@ -47,13 +50,28 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <a
-                href="/Manhua_Lu_Resume_2023.pdf"
-                className="px-3 py-3 rounded border-black text-gray-700 dark:text-gray-400 dark:hover:text-black border"
-                download
-              >
-                Resume
-              </a>
+              <HoverCard.Root>
+                <HoverCard.Trigger asChild>
+                  <a
+                    href="/Manhua_Lu_Resume_2023.pdf"
+                    className="rounded border border-black px-3 py-3 text-gray-700 dark:text-gray-400 dark:hover:text-black"
+                    download
+                  >
+                    Resume
+                  </a>
+                </HoverCard.Trigger>
+                <HoverCard.Portal>
+                  <HoverCard.Content
+                    className="HoverCardContent"
+                    sideOffset={5}
+                  >
+                    <div className="rounded bg-sky-12 p-3 shadow">
+                      Download as a PDF : )
+                    </div>
+                    <HoverCard.Arrow className="HoverCardArrow" />
+                  </HoverCard.Content>
+                </HoverCard.Portal>
+              </HoverCard.Root>
             </li>
           </ul>
         </div>
