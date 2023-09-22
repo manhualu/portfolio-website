@@ -14,40 +14,22 @@ const About = () => {
         </span>
         <br></br>
         <p className="text-lg">
-          I am a full-time university student. However, on the side, I am a
-          <span className="font-bold"> casual academic at UNSW </span>who
-          teaches Database Systems (COMP3311) and junior science to children
-          from years 7 to years 10!
+          I'm currently a 3rd year Computer Science and Commerce (Finance)
+          student. Right now, I'm one of the{" "}
+          <span className="font-bold">projects directors of Notangles!</span>
         </p>
         <br></br>
         <p className="text-lg">
-          I&apos;m also a
-          <span className="font-bold"> UNSW CSESoc Development Director</span>,
-          where I lead a team of 10 to continuously improve and deploy new
-          features for Notangles. This involves utilising Jira + Confluence,
-          reviewing Github pull requests and attending weekly meetings +
-          standups.
+          I looovee food 🥞, discovering new music 🎶 and looking out for cool
+          photo/vid opportunities 🌇.
         </p>
         <br></br>
+
         <p className="text-lg">
-          I&apos;ve also been a{" "}
-          <span className="font-bold"> CSESoc Peer Mentor</span>, where I led
-          weekly meetups to help first year students transition to university in
-          their first semester and feel happy + safe 🧡.
+          Most importantly, I'm always seeking to make others smile, building
+          authentic relationships and being a force for good in the world 🧡.
         </p>
         <br></br>
-        <p className="text-lg">
-          And as a part of <span className="font-bold"> CompClub </span>have
-          also held free workshops that taught students of years 7 to 12 Python,
-          Web Development and Shell. I love promoting education to the younger
-          generation by creating a fun and collaborative environment.
-        </p>
-        <br></br>
-        <p className="text-lg">
-          Most of the time, you&apos;ll either catch me eating 🥞 or see me on
-          the hunt for new music 🎶. I&apos;m also always on the lookout for
-          cool photo/vid opportunities 🌇 and trying out new food places.
-        </p>
       </div>
 
       <div className="relative">

@@ -16,13 +16,15 @@ export default function Home() {
           Hello there <span className={`${classes.wave}`}>👋</span> I am
         </span>
         <span className="text-6xl font-bold">Manhua Lu</span>
-        <span className="text-md text-gray-10">
-          A 3rd year Computer Science and Commerce (Finance) student
+        <br></br>
+        <span className="text-lg text-gray-10">And I'm running for...</span>
+        <span className="text-gray-20 text-lg font-semibold">
+          Vice President over the Course Projects 🙂
         </span>
       </div>
 
       <Image
-        src="/manhua.jpg"
+        src="/manhua2.JPG"
         alt="Manhua"
         width="400"
         height="400"

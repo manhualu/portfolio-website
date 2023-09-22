@@ -5,51 +5,57 @@ import * as HoverCard from "@radix-ui/react-hover-card";
 
 const Header = () => {
   return (
-    <nav className="px-2 py-2.5 shadow">
+    <nav className="p-1 shadow">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <Link href="/" className="flex items-center">
-          <Image
+          {/* <Image
             src="/frog-chair-dance.gif"
             alt="frog chair dancing"
             width="40"
             height="40"
-          />
-          <span className="text-xl font-bold">Manhua</span>
+          /> */}
+          <span className="text-xl font-bold">Manhua 🌼</span>
         </Link>
         <div className="">
-          <ul className="text-md mt-0 flex flex-row space-x-8 p-4">
+          <ul className="text-md mt-0 flex flex-row space-x-8 p-4 font-semibold">
             <li>
-              <Link href="/">
-                <span className="text-gray-700 dark:text-gray-400 dark:hover:text-black">
-                  Home
-                </span>
+              <Link href="/" className="text-black hover:text-indigo-10">
+                Home
               </Link>
             </li>
             <li>
-              <Link
-                href="Projects"
-                className="text-gray-700 dark:text-gray-400 dark:hover:text-black"
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/About"
-                className="text-gray-700 dark:text-gray-400 dark:hover:text-black"
-              >
+              <Link href="/About" className="text-black hover:text-indigo-10">
                 About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
-                href="/Contact"
-                className="text-gray-700 dark:text-gray-400 dark:hover:text-black"
+                href="Projects"
+                className="text-black dark:text-gray-600 dark:hover:text-black"
               >
-                Contact
+                Projects
+              </Link>
+            </li> */}
+            <li>
+              <Link href="/Vision" className="text-black hover:text-indigo-10">
+                Vision
               </Link>
             </li>
             <li>
+              <Link
+                href="/Experience"
+                className="text-black hover:text-indigo-10"
+              >
+                Experience
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/Contact" className="text-black hover:text-indigo-10">
+                Contact
+              </Link>
+            </li>
+            {/* <li>
               <HoverCard.Root>
                 <HoverCard.Trigger asChild>
                   <a
@@ -72,7 +78,7 @@ const Header = () => {
                   </HoverCard.Content>
                 </HoverCard.Portal>
               </HoverCard.Root>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
