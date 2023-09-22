@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import Footer from "./Footer";
 import Header from "./Header";
 import { Analytics } from "@vercel/analytics/react";
+import "@radix-ui/themes/styles.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

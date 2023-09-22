@@ -2,33 +2,35 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import * as HoverCard from "@radix-ui/react-hover-card";
+import { Theme } from "@radix-ui/themes";
 
 const Header = () => {
   return (
-    <nav className="p-1 shadow">
-      <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <Link href="/" className="flex items-center">
-          {/* <Image
+    <Theme>
+      <nav className="p-1 shadow">
+        <div className="container mx-auto flex justify-between">
+          <Link href="/" className="flex items-center">
+            {/* <Image
             src="/frog-chair-dance.gif"
             alt="frog chair dancing"
             width="40"
             height="40"
           /> */}
-          <span className="text-xl font-bold">Manhua 🌼</span>
-        </Link>
-        <div className="">
-          <ul className="text-md mt-0 flex flex-row space-x-8 p-4 font-semibold">
-            <li>
-              <Link href="/" className="text-black hover:text-indigo-10">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link href="/About" className="text-black hover:text-indigo-10">
-                About
-              </Link>
-            </li>
-            {/* <li>
+            <span className="text-xl font-bold">Manhua 🌼</span>
+          </Link>
+          <div className="">
+            <ul className="text-md mt-0 flex flex-row space-x-8 p-4 font-semibold">
+              <li>
+                <Link href="/" className="text-black hover:text-indigo-10">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/About" className="text-black hover:text-indigo-10">
+                  About
+                </Link>
+              </li>
+              {/* <li>
               <Link
                 href="Projects"
                 className="text-black dark:text-gray-600 dark:hover:text-black"
@@ -36,26 +38,32 @@ const Header = () => {
                 Projects
               </Link>
             </li> */}
-            <li>
-              <Link href="/Vision" className="text-black hover:text-indigo-10">
-                Vision
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/Experience"
-                className="text-black hover:text-indigo-10"
-              >
-                Experience
-              </Link>
-            </li>
+              <li>
+                <Link
+                  href="/Vision"
+                  className="text-black hover:text-indigo-10"
+                >
+                  Vision
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Experience"
+                  className="text-black hover:text-indigo-10"
+                >
+                  Experience
+                </Link>
+              </li>
 
-            <li>
-              <Link href="/Contact" className="text-black hover:text-indigo-10">
-                Contact
-              </Link>
-            </li>
-            {/* <li>
+              <li>
+                <Link
+                  href="/Contact"
+                  className="text-black hover:text-indigo-10"
+                >
+                  Contact
+                </Link>
+              </li>
+              {/* <li>
               <HoverCard.Root>
                 <HoverCard.Trigger asChild>
                   <a
@@ -79,10 +87,11 @@ const Header = () => {
                 </HoverCard.Portal>
               </HoverCard.Root>
             </li> */}
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </Theme>
   );
 };
 
