@@ -6,12 +6,12 @@ const VisionSection = () => {
   return (
     <Theme>
       <section id="vision">
-        <div className="m-16 space-y-6 pb-12 font-mono md:pt-16">
+        <div className="m-10 space-y-6 pb-12 font-mono md:m-32 md:pt-16">
           <span className="text-center text-4xl font-bold text-indigo-500">
             My Vision
           </span>
           <div className="flex flex-col space-y-12 md:flex-row md:space-x-24">
-            <div className="flex flex-col items-stretch justify-center space-y-4 md:w-2/3">
+            <div className="flex flex-col items-stretch justify-center space-y-4 md:w-3/4">
               <p className="text-lg">
                 Carrying on the 2023 Execs legacy, in 2024 I&apos;d like{" "}
                 <span className="font-bold">

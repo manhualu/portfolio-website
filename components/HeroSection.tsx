@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <Theme>
       <section id="home">
-        <div className="m-32 flex flex-col items-center justify-center space-y-10 py-32 font-mono md:flex-row md:space-x-16 md:py-2 md:text-left">
+        <div className="m-32 flex flex-col items-center justify-center space-y-10 font-mono md:flex-row md:space-x-32">
           <div id="text" className="">
             <div>
               <span className="text-xl text-indigo-10">

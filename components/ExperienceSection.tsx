@@ -6,10 +6,8 @@ const ExperienceSection = () => {
   return (
     <Theme>
       <section id="experience">
-        <div className="m-16 space-y-6 pb-12 font-mono md:pt-16 ">
-          <span className="text-center text-4xl font-bold text-indigo-500">
-            Experience
-          </span>
+        <div className="m-10 space-y-6 pb-12 font-mono md:m-32 md:pt-16">
+          <span className="text-4xl font-bold text-indigo-500">Experience</span>
 
           <div>
             <div
@@ -114,7 +112,7 @@ const ExperienceSection = () => {
               id="notangles-2022"
               className="flex flex-col justify-center space-y-6 border-b md:flex-row"
             >
-              <div className="md:my-8 md:w-1/4">
+              <div className="md:my-8">
                 <p className="flex text-xl font-semibold">
                   CSESoc Notangles Subcommittee 2022
                 </p>
@@ -158,7 +156,7 @@ const ExperienceSection = () => {
               id="peer=mentoring"
               className="flex flex-col justify-center space-y-6 border-b md:flex-row"
             >
-              <div className="md:my-8 md:w-1/4">
+              <div className="md:my-8">
                 <p className="flex text-xl font-semibold">
                   CSESoc Peer Mentor 2022
                 </p>
@@ -197,7 +195,7 @@ const ExperienceSection = () => {
               id="compclub"
               className="flex flex-col justify-center space-y-6 border-b md:flex-row"
             >
-              <div className="md:my-12 md:w-1/4">
+              <div className="md:my-12">
                 <p className="flex text-xl font-semibold">
                   CSESoc CompClub Mentor
                 </p>
@@ -225,7 +223,7 @@ const ExperienceSection = () => {
               id="unsw-tutor"
               className="flex flex-col justify-center space-y-6 md:flex-row"
             >
-              <div className="md:my-12 md:w-1/4">
+              <div className="md:my-12">
                 <p className="flex text-xl font-semibold">
                   UNSW CSE Casual Academic
                 </p>
@@ -245,7 +243,6 @@ const ExperienceSection = () => {
                 </p>
               </div>
             </div>
-            <br></br>
           </div>
         </div>
       </section>
