@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <Theme>
-      <header className="fixed top-0 z-50 mx-auto w-full bg-white px-4 shadow dark:bg-stone-900">
+      <header className="fixed top-0 z-50 mx-auto w-full bg-white px-4 font-mono shadow dark:bg-stone-900">
         <div className="justify-between md:flex md:items-center">
           <div>
             <div className="mx-4 flex items-center justify-between py-3">

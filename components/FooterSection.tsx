@@ -5,10 +5,20 @@ import { Theme } from "@radix-ui/themes";
 const FooterSection = () => {
   return (
     <Theme>
-      <footer className="mx-auto max-w-3xl bg-indigo-200 px-4 dark:bg-indigo-900 sm:px-6 md:max-w-full">
+      <footer className="mx-auto max-w-3xl bg-indigo-200 px-4 font-mono dark:bg-indigo-900 sm:px-6 md:max-w-full">
         <div className="mx-auto flex flex-col p-4 text-center text-neutral-800 dark:text-neutral-100 md:flex-row md:justify-between">
           {/* <div>© 2023 Manhua Lu</div> */}
-          <div>Vote Manhua Lu for Course Projects VP 🧡</div>
+          <div className="py-2">Vote Manhua Lu for Course Projects VP 🧡</div>
+
+          <a
+            href="https://github.com/manhualu/portfolio-website"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-md border p-2 transition-transform hover:-translate-y-1"
+          >
+            Website Source Code (source: trust me bro)
+          </a>
+
           <div className="mb-1 flex flex-row items-center justify-center space-x-2">
             <a
               href="https://github.com/manhualu"

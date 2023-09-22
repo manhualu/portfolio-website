@@ -6,7 +6,7 @@ const VisionSection = () => {
   return (
     <Theme>
       <section id="vision">
-        <div className="m-16 space-y-6 pb-12 md:pt-16">
+        <div className="font-mono m-16 space-y-6 pb-12 md:pt-16">
           <span className="text-center text-4xl font-bold text-indigo-500">
             My Vision
           </span>

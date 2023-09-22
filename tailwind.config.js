@@ -17,6 +17,9 @@ module.exports = {
           to: { transform: "transformY(0)" },
         },
       },
+      fontFamily: {
+        inconsolata: ["var(--font-inconsolata)"],
+      },
     },
   },
   plugins: [require("windy-radix-palette")],
