@@ -11,11 +11,6 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className="flex h-screen flex-col justify-between">
       <ThemeProvider attribute="class">
-        {/* <Navbar />
-        <Component {...pageProps} />
-     
-        <Footer /> */}
-
         <Layout>
           <Component {...pageProps} />
           <Analytics />

@@ -45,9 +45,9 @@ const Navbar = () => {
       <header className="fixed top-0 z-50 mx-auto w-full bg-white px-4 shadow dark:bg-stone-900">
         <div className="justify-between md:flex md:items-center">
           <div>
-            <div className="flex items-center justify-between py-3">
-              <div className="mx-4 md:block md:py-5">
-                <span className="text-xl font-bold">Manhua 🌼</span>
+            <div className="mx-4 flex items-center justify-between py-3">
+              <div className="md:block md:py-5">
+                <span className=" text-xl font-bold">Manhua 🌼</span>
               </div>
               <div className="md:hidden">
                 <button
@@ -62,17 +62,17 @@ const Navbar = () => {
           </div>
           <div>
             <div
-              className={`mt-8 flex-1 justify-self-center pb-3 md:mt-0 md:block md:pb-0 ${
+              className={`mt-2 flex-1 justify-self-center pb-3 md:mt-0 md:block md:pb-0 ${
                 navbar ? "block" : "hidden"
               }`}
             >
-              <div className="items-center justify-center space-y-6 md:flex md:space-x-6 md:space-y-0">
+              <div className="items-center justify-center space-y-6 px-4 text-center md:flex md:space-x-6 md:space-y-0">
                 {NAV_ITEMS.map((item, idx) => {
                   return (
                     <Link
                       key={idx}
                       to={item.page}
-                      className="block lg:inline-block"
+                      className="block border-b lg:inline-block"
                       activeClass="active"
                       spy={true}
                       smooth={true}

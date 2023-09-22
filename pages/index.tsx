@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import VisionSection from "@/components/VisionSection";
+import ExperienceSection from "@/components/ExperienceSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         <AboutSection />
         <hr></hr>
         <VisionSection />
+        <hr></hr>
+        <ExperienceSection />
       </div>
       {/* <Head>
         <title>Home</title>

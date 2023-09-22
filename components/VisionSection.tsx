@@ -6,8 +6,8 @@ const VisionSection = () => {
   return (
     <Theme>
       <section id="about">
-        <div className="m-24 space-y-6 pb-12 md:pt-0 md:pb-48">
-          <span className="text-center text-4xl font-bold text-indigo-10">
+        <div className="m-16 space-y-6 pb-12 md:pt-0 md:pb-48">
+          <span className="text-center text-4xl font-bold text-indigo-500">
             My Vision
           </span>
           <div className="flex flex-col space-x-12 space-y-12 md:flex-row">
