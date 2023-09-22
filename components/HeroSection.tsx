@@ -1,25 +1,14 @@
-import { Inter } from "@next/font/google";
-import Head from "next/head";
+import { Head } from "next/document";
 import Image from "next/image";
-import classes from "./index.module.css";
-import { Theme } from "@radix-ui/themes";
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
+import React from "react";
+import classes from "../index.module.css";
+import { Link } from "react-scroll";
+import { HiArrowDown } from "react-icons/hi";
 
-export default function Home() {
+const HeroSection = () => {
   return (
-    <Theme>
-      <div>
-        <Navbar />
-        <HeroSection />
-        <AboutSection />
-      </div>
-      {/* <Head>
-        <title>Home</title>
-      </Head>
-      <div className="flex flex-col items-center justify-center space-y-10 py-32 m-8 md:flex-row md:space-x-16 md:py-2 md:text-left">
-        
+    <section id="home">
+      <div className="m-32 flex flex-col items-center justify-center space-y-10 py-32 md:flex-row md:space-x-16 md:py-2 md:text-left">
         <div id="text" className="">
           <div>
             <span className="font text-xl text-indigo-10">
@@ -48,7 +37,22 @@ export default function Home() {
             priority
           ></Image>
         </div>
-      </div> */}
-    </Theme>
+      </div>
+
+      <div className="flex flex-row justify-center p-12">
+        <Link
+          to="about"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <HiArrowDown size={35} className="animate-bounce" />
+        </Link>
+      </div>
+    </section>
   );
-}
+};
+
+export default HeroSection;
