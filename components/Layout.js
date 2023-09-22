@@ -1,9 +1,5 @@
-import Head from "next/head";
 import React from "react";
-import Navbar from "./Navbar";
-import HeroSection from "./HeroSection";
-import AboutSection from "./AboutSection";
-import VisionSection from "./VisionSection";
+import Head from "next/head";
 
 const Layout = ({ children }) => {
   return (
@@ -14,7 +10,6 @@ const Layout = ({ children }) => {
       </Head>
       <div className="flex min-h-screen flex-col">
         <main className="flex-grow">{children}</main>
-        {/* should have footer section here too */}
       </div>
     </div>
   );

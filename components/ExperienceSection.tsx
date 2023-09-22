@@ -1,7 +1,6 @@
 import React from "react";
-import { Theme } from "@radix-ui/themes";
-import Head from "next/head";
 import Image from "next/image";
+import { Theme } from "@radix-ui/themes";
 
 const ExperienceSection = () => {
   return (
@@ -145,7 +144,7 @@ const ExperienceSection = () => {
                       width="400"
                       height="400"
                     ></Image>
-                    <span className=" italic text-gray-500">
+                    <span className="italic text-gray-500">
                       where it all started...
                     </span>
                   </div>
@@ -184,7 +183,7 @@ const ExperienceSection = () => {
                       width="400"
                       height="400"
                     ></Image>
-                    <span className=" italic text-gray-500">
+                    <span className="italic text-gray-500">
                       my wonderful peer mentees
                     </span>
                   </div>

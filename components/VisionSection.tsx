@@ -1,6 +1,6 @@
 import React from "react";
-import { Blockquote, Theme } from "@radix-ui/themes";
 import Image from "next/image";
+import { Blockquote, Theme } from "@radix-ui/themes";
 
 const VisionSection = () => {
   return (

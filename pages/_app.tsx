@@ -1,10 +1,8 @@
-import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import Footer from "./Footer";
-import Navbar from "../components/Navbar";
-import { Analytics } from "@vercel/analytics/react";
-import "@radix-ui/themes/styles.css";
 import { ThemeProvider } from "next-themes";
+import "@/styles/globals.css";
+import "@radix-ui/themes/styles.css";
+import { Analytics } from "@vercel/analytics/react";
 import Layout from "../components/Layout";
 
 export default function App({ Component, pageProps }: AppProps) {

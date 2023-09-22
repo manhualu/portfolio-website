@@ -1,6 +1,6 @@
-import { Theme } from "@radix-ui/themes";
 import React from "react";
 import Image from "next/image";
+import { Theme } from "@radix-ui/themes";
 
 const AboutSection = () => {
   return (
@@ -10,7 +10,7 @@ const AboutSection = () => {
           <span className="text-center text-4xl font-bold text-indigo-500">
             A bit about myself...
           </span>
-          <div className="flex flex-col space-y-12 md:flex-row">
+          <div className="flex flex-col space-y-12 md:flex-row md:space-x-24">
             <div className="flex flex-col items-stretch justify-center space-y-4">
               <p className="text-lg">
                 I&apos;m currently a 3rd year Computer Science and Commerce
