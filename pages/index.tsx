@@ -8,6 +8,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import VisionSection from "@/components/VisionSection";
 import ExperienceSection from "@/components/ExperienceSection";
+import FooterSection from "@/components/FooterSection";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         <VisionSection />
         <hr></hr>
         <ExperienceSection />
+        <hr></hr>
+        <FooterSection />
       </div>
       {/* <Head>
         <title>Home</title>

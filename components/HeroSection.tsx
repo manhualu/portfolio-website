@@ -17,12 +17,12 @@ const HeroSection = () => {
             <br></br>
             <span className="text-6xl font-bold">Manhua Lu</span>
             <br></br>
-            <span className="sm:text-md text-lg text-gray-10">
+            <span className="text-lg text-gray-10">
               And I&apos;m running for...
             </span>
             <br></br>
-            <span className="text-gray-20 sm:text-md text-xl font-semibold">
-              Vice President over the Course Projects 🙂
+            <span className="text-gray-20 text-2xl font-semibold">
+              Course Projects VP 🙂
             </span>
           </div>
         </div>

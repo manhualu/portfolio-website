@@ -6,7 +6,7 @@ import Image from "next/image";
 const ExperienceSection = () => {
   return (
     <Theme>
-      <section id="about">
+      <section id="experience">
         <div className="m-16 space-y-6 pb-12 md:pt-16 ">
           <span className="text-center text-4xl font-bold text-indigo-500">
             Experience

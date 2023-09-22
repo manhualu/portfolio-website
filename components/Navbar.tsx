@@ -15,23 +15,19 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Home",
-    page: "/",
+    page: "home",
   },
   {
     label: "About",
-    page: "/About",
+    page: "about",
   },
   {
     label: "Vision",
-    page: "/Vision",
+    page: "vision",
   },
   {
     label: "Experience",
-    page: "/Experience",
-  },
-  {
-    label: "Contact",
-    page: "/Contact",
+    page: "experience",
   },
 ];
 
@@ -46,9 +42,11 @@ const Navbar = () => {
         <div className="justify-between md:flex md:items-center">
           <div>
             <div className="mx-4 flex items-center justify-between py-3">
-              <div className="md:block md:py-5">
-                <span className=" text-xl font-bold">Manhua 🌼</span>
-              </div>
+              <Link to="home">
+                <div className="md:block md:py-5">
+                  <span className=" text-xl font-bold">Manhua 🌼</span>
+                </div>
+              </Link>
               <div className="md:hidden">
                 <button
                   onClick={() => {
@@ -72,7 +70,8 @@ const Navbar = () => {
                     <Link
                       key={idx}
                       to={item.page}
-                      className="block border-b lg:inline-block"
+                      // className="block cursor-pointer border-b md:hover:text-indigo-500 lg:inline-block"
+                      
                       activeClass="active"
                       spy={true}
                       smooth={true}

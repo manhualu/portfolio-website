@@ -13,7 +13,6 @@ const Layout = ({ children }) => {
         <meta name="description" content="Manhua's portfolio website"></meta>
       </Head>
       <div className="flex min-h-screen flex-col">
-        <Navbar />
         <main className="flex-grow">{children}</main>
         {/* should have footer section here too */}
       </div>
