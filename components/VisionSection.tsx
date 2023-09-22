@@ -6,12 +6,12 @@ const VisionSection = () => {
   return (
     <Theme>
       <section id="vision">
-        <div className="font-mono m-16 space-y-6 pb-12 md:pt-16">
+        <div className="m-16 space-y-6 pb-12 font-mono md:pt-16">
           <span className="text-center text-4xl font-bold text-indigo-500">
             My Vision
           </span>
-          <div className="flex flex-col space-x-12 space-y-12 md:flex-row">
-            <div className="flex flex-col items-stretch justify-center space-y-4">
+          <div className="flex flex-col space-y-12 md:flex-row md:space-x-24">
+            <div className="flex flex-col items-stretch justify-center space-y-4 md:w-2/3">
               <p className="text-lg">
                 Carrying on the 2023 Execs legacy, in 2024 I&apos;d like{" "}
                 <span className="font-bold">
@@ -69,6 +69,29 @@ const VisionSection = () => {
                 <span className="font-bold">reach out </span> to should there be
                 any logistical problems or concerns within their team!
               </p>
+            </div>
+            <div className="relative">
+              <Image
+                src="/vision1.JPG"
+                alt="vision1"
+                width="400"
+                height="400"
+                className="relative h-auto shadow-lg"
+              ></Image>
+              <Image
+                src="/vision2.JPG"
+                alt="vision2"
+                width="400"
+                height="400"
+                className="relative z-10 h-auto shadow-lg"
+              ></Image>
+              <Image
+                src="/vision3.JPG"
+                alt="vision3"
+                width="400"
+                height="400"
+                className="relative z-10 h-auto shadow-lg"
+              ></Image>
             </div>
           </div>
         </div>

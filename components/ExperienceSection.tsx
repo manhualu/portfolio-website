@@ -198,10 +198,12 @@ const ExperienceSection = () => {
               className="flex flex-col justify-center space-y-6 border-b md:flex-row"
             >
               <div className="md:my-12 md:w-1/4">
-                <p className="flex text-xl font-semibold">CompClub Mentor</p>
+                <p className="flex text-xl font-semibold">
+                  CSESoc CompClub Mentor
+                </p>
               </div>
 
-              <div className="md:px-8">
+              <div className="md:px-16">
                 <p className="text-lg">
                   <li className="flex items-start">
                     <span className="mr-2">&#8226;</span>
@@ -229,7 +231,7 @@ const ExperienceSection = () => {
                 </p>
               </div>
 
-              <div className="md:px-8">
+              <div className="md:px-6">
                 <p className="text-lg">
                   <li className="flex items-start">
                     <span className="mr-2">&#8226;</span>

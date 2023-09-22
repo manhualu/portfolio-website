@@ -14,7 +14,7 @@ const FooterSection = () => {
             href="https://github.com/manhualu/portfolio-website"
             target="_blank"
             rel="noreferrer"
-            className="rounded-md border p-2 transition-transform hover:-translate-y-1"
+            className="rounded-md border border-gray-800 p-2 transition-transform hover:-translate-y-1 dark:border-white"
           >
             Website Source Code (source: trust me bro)
           </a>

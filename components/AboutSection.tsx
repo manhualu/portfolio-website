@@ -11,7 +11,7 @@ const AboutSection = () => {
             A bit about myself...
           </span>
           <div className="flex flex-col space-y-12 md:flex-row md:space-x-24">
-            <div className="flex flex-col items-stretch justify-center space-y-4">
+            <div className="flex flex-col items-stretch justify-center space-y-4 md:w-2/3">
               <p className="text-lg">
                 I&apos;m currently a 3rd year Computer Science and Commerce
                 (Finance) student. Right now, I&apos;m one of the{" "}
