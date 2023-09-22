@@ -5,15 +5,21 @@ import Navbar from "../components/Navbar";
 import { Analytics } from "@vercel/analytics/react";
 import "@radix-ui/themes/styles.css";
 import { ThemeProvider } from "next-themes";
+import Layout from "../components/Layout";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className="flex h-screen flex-col justify-between">
-      <ThemeProvider enableSystem={true} attribute="class">
-        <Navbar />
+      <ThemeProvider attribute="class">
+        {/* <Navbar />
         <Component {...pageProps} />
-        <Analytics />
-        <Footer />
+     
+        <Footer /> */}
+
+        <Layout>
+          <Component {...pageProps} />
+          <Analytics />
+        </Layout>
       </ThemeProvider>
     </div>
   );

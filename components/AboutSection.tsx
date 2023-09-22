@@ -6,12 +6,12 @@ const AboutSection = () => {
   return (
     <Theme>
       <section id="about">
-        <div className="m-24 pb-12 md:pt-16 md:pb-48">
+        <div className="m-24 space-y-6 pb-12 md:pt-16 ">
           <span className="text-center text-4xl font-bold text-indigo-10">
             A bit about myself...
           </span>
-          <div className="flex flex-col space-x-12 md:flex-row">
-            <div className="flex flex-col items-stretch justify-center space-y-10">
+          <div className="flex flex-col space-x-12 space-y-12 md:flex-row">
+            <div className="flex flex-col items-stretch justify-center space-y-4">
               <p className="text-lg">
                 I&apos;m currently a 3rd year Computer Science and Commerce
                 (Finance) student. Right now, I&apos;m one of the{" "}

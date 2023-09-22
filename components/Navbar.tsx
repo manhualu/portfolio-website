@@ -42,11 +42,11 @@ const Navbar = () => {
 
   return (
     <Theme>
-      <header className="fixed top-0 z-50 mx-auto w-full bg-white px-4 shadow dark:border-b dark:border-stone-600 dark:bg-stone-900">
+      <header className="fixed top-0 z-50 mx-auto w-full bg-white px-4 shadow dark:bg-stone-900">
         <div className="justify-between md:flex md:items-center">
           <div>
             <div className="flex items-center justify-between py-3">
-              <div className="md:block md:py-5">
+              <div className="mx-4 md:block md:py-5">
                 <span className="text-xl font-bold">Manhua 🌼</span>
               </div>
               <div className="md:hidden">
@@ -87,7 +87,7 @@ const Navbar = () => {
                 {currentTheme === "dark" ? (
                   <button
                     onClick={() => setTheme("light")}
-                    className="rounded-xl bg-slate-100 p-2"
+                    className="rounded-lg bg-slate-100 p-2 dark:bg-stone-700"
                   >
                     <RiSunLine />
                   </button>

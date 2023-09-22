@@ -6,6 +6,7 @@ import { Theme } from "@radix-ui/themes";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
+import VisionSection from "@/components/VisionSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
         <Navbar />
         <HeroSection />
         <AboutSection />
+        <hr></hr>
+        <VisionSection />
       </div>
       {/* <Head>
         <title>Home</title>
