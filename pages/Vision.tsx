@@ -16,7 +16,7 @@ const Vision = () => {
           </span>
           <br></br>
           <p className="text-lg">
-            Carrying on the 2023 Execs legacy, in 2024 I'd like{" "}
+            Carrying on the 2023 Execs legacy, in 2024 I&apos;d like{" "}
             <span className="font-bold">
               cohesion between the projects implemented.{" "}
             </span>

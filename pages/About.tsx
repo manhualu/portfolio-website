@@ -16,8 +16,8 @@ const About = () => {
           </span>
           <br></br>
           <p className="text-lg">
-            I'm currently a 3rd year Computer Science and Commerce (Finance)
-            student. Right now, I'm one of the{" "}
+            I&apos;m currently a 3rd year Computer Science and Commerce
+            (Finance) student. Right now, I&apos;m one of the{" "}
             <span className="font-bold">projects directors of Notangles!</span>
           </p>
 
@@ -29,8 +29,9 @@ const About = () => {
           <br></br>
 
           <p className="text-lg">
-            Most importantly, I'm always seeking to make others smile, building
-            authentic relationships and being a force for good in the world 🧡.
+            Most importantly, I&apos;m always seeking to make others smile,
+            building authentic relationships and being a force for good in the
+            world 🧡.
           </p>
           <br></br>
         </div>

@@ -15,11 +15,13 @@ export default function Home() {
         </Head>
         <div id="text" className="flex flex-col">
           <span className="font text-xl text-indigo-10">
-            Hello there <span className={`${classes.wave}`}>👋</span> I'm
+            Hello there <span className={`${classes.wave}`}>👋</span> I&apos;m
           </span>
           <span className="text-6xl font-bold">Manhua Lu</span>
           <br></br>
-          <span className="text-lg text-gray-10">And I'm running for...</span>
+          <span className="text-lg text-gray-10">
+            And I&apos;m running for...
+          </span>
           <span className="text-gray-20 text-xl font-semibold">
             Vice President over the Course Projects 🙂
           </span>
