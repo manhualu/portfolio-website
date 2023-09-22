@@ -53,8 +53,8 @@ const Vision = () => {
           <p className="text-lg">
             As a project director in 2023, I understand how stressful it gets.
             <Blockquote>
-              It&apos;s always "How&apos;s my subcom doing?", never "How&apos;s
-              the director doing?" frfr 😔
+              It&apos;s always &quot;How&apos;s my subcom doing?&quot;, never
+              &quot;How&apos;s the director doing?&quot; frfr 😔
             </Blockquote>
           </p>
           <br></br>
