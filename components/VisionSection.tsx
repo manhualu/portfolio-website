@@ -50,11 +50,11 @@ const VisionSection = () => {
               <p className="text-lg">
                 As a project director in 2023, I understand how stressful it
                 gets.
-                <Blockquote>
-                  It&apos;s always &quot;How&apos;s my subcom doing?&quot;,
-                  never &quot;How&apos;s the director doing?&quot; frfr 😔
-                </Blockquote>
               </p>
+              <Blockquote>
+                It&apos;s always &quot;How&apos;s my subcom doing?&quot;, never
+                &quot;How&apos;s the director doing?&quot; frfr 😔
+              </Blockquote>
               <br></br>
               <p className="text-lg">
                 Directors need just as much support as the directors support
