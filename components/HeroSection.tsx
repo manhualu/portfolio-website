@@ -13,19 +13,12 @@ const HeroSection = () => {
           <div id="text" className="">
             <div>
               <span className="text-xl text-indigo-10">
-                Hello there <span className={`${classes.wave}`}>👋</span>{" "}
+                Hello there <span className={`${classes.wave}`}>👋,</span>{" "}
                 I&apos;m
               </span>
               <br></br>
               <span className="text-6xl font-bold">Manhua Lu</span>
               <br></br>
-              <span className="text-lg text-gray-10">
-                And I&apos;m running for...
-              </span>
-              <br></br>
-              <span className="text-gray-20 text-2xl font-semibold">
-                Course Projects VP
-              </span>
             </div>
           </div>
 

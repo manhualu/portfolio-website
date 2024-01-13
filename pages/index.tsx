@@ -9,6 +9,7 @@ import AboutSection from "@/components/AboutSection";
 import VisionSection from "@/components/VisionSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import FooterSection from "@/components/FooterSection";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export default function Home() {
   return (
@@ -18,9 +19,9 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <hr></hr>
-        <VisionSection />
-        <hr></hr>
         <ExperienceSection />
+        <hr></hr>
+        <ProjectsSection/>
         <hr></hr>
         <FooterSection />
       </div>

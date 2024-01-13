@@ -7,8 +7,7 @@ const FooterSection = () => {
     <Theme>
       <footer className="mx-auto max-w-3xl bg-indigo-200 px-4 font-mono dark:bg-indigo-900 sm:px-6 md:max-w-full">
         <div className="mx-auto flex flex-col p-4 text-center text-neutral-800 dark:text-neutral-100 md:flex-row md:justify-between">
-          {/* <div>© 2023 Manhua Lu</div> */}
-          <div className="py-2">Vote Manhua Lu for Course Projects VP 🧡</div>
+          <div className="py-2">© 2024 Manhua Lu 🧡</div>
 
           <a
             href="https://github.com/manhualu/portfolio-website"

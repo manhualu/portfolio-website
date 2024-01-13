@@ -21,12 +21,12 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "about",
   },
   {
-    label: "Vision",
-    page: "vision",
-  },
-  {
     label: "Experience",
     page: "experience",
+  },
+  {
+    label: "Projects",
+    page: "projects",
   },
 ];
 
@@ -41,7 +41,15 @@ const Navbar = () => {
         <div className="justify-between md:flex md:items-center">
           <div>
             <div className="mx-4 flex items-center justify-between py-3">
-              <Link to="home">
+              {/* Link to Home page */}
+              <Link
+                to={NAV_ITEMS[0].page}
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
                 <div className="md:block md:py-5">
                   <span className=" text-xl font-bold">Manhua 🌼</span>
                 </div>
