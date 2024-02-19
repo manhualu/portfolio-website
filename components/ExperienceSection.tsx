@@ -23,6 +23,18 @@ const ExperienceSection = () => {
             <br></br>
 
             <div
+              id="devsoc-exec"
+              className="flex flex-col justify-center space-y-6 border-b md:flex-row"
+            >
+              <div className="md:my-8">
+                <p className="flex text-xl font-semibold">
+                  DevSoc Executive Vice President of Course Projects 2023
+                  (WIP...)
+                </p>
+              </div>
+            </div>
+
+            <div
               id="notangles-2023"
               className="flex flex-col justify-center space-y-6 border-b md:flex-row"
             >

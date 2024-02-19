@@ -21,7 +21,7 @@ export default function Home() {
         <hr></hr>
         <ExperienceSection />
         <hr></hr>
-        <ProjectsSection/>
+        <ProjectsSection />
         <hr></hr>
         <FooterSection />
       </div>

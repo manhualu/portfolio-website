@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import { useTheme } from "next-themes";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { RiSunLine, RiMoonFill } from "react-icons/ri";
-import { Link } from "react-scroll";
+import { Link as LinkScroll } from "react-scroll";
 import { Theme } from "@radix-ui/themes";
 import * as HoverCard from "@radix-ui/react-hover-card";
+import * as Popover from "@radix-ui/react-popover";
+import Image from "next/image";
+import Link from "next/link";
 
 interface NavItem {
   label: string;
@@ -42,7 +45,7 @@ const Navbar = () => {
           <div>
             <div className="mx-4 flex items-center justify-between py-3">
               {/* Link to Home page */}
-              <Link
+              <LinkScroll
                 to={NAV_ITEMS[0].page}
                 activeClass="active"
                 spy={true}
@@ -53,7 +56,7 @@ const Navbar = () => {
                 <div className="md:block md:py-5">
                   <span className=" text-xl font-bold">Manhua 🌼</span>
                 </div>
-              </Link>
+              </LinkScroll>
               <div className="md:hidden">
                 <button
                   onClick={() => {
@@ -74,7 +77,7 @@ const Navbar = () => {
               <div className="items-center justify-center space-y-6 px-4 text-center md:flex md:space-x-6 md:space-y-0">
                 {NAV_ITEMS.map((item, idx) => {
                   return (
-                    <Link
+                    <LinkScroll
                       key={idx}
                       to={item.page}
                       className="block cursor-pointer border-b md:hover:text-indigo-500 lg:inline-block"
@@ -86,14 +89,29 @@ const Navbar = () => {
                       onClick={() => setNavbar(!navbar)}
                     >
                       {item.label}
-                    </Link>
+                    </LinkScroll>
                   );
                 })}
+
+                {/* TODO: Add link to Contact section */}
+                {/* <div className="block cursor-pointer rounded border p-1.5 md:hover:text-indigo-500 lg:inline-block">
+                  Contact
+                </div> */}
+
+                <div>
+                  <a
+                    href="/Manhua_Lu_Resume_2024.pdf"
+                    className="block cursor-pointer rounded border p-1.5 md:hover:text-indigo-500 lg:inline-block"
+                    download
+                  >
+                    Resume
+                  </a>
+                </div>
                 {/* <HoverCard.Root>
                   <HoverCard.Trigger asChild>
                     <a
                       href="/Manhua_Lu_Resume_2023.pdf"
-                      className="rounded border border-gray-200 px-3 py-3 text-gray-700 hover:border-black dark:text-gray-400 dark:hover:text-black"
+                      className="block cursor-pointer border rounded p-1.5 md:hover:text-indigo-500 lg:inline-block"
                       download
                     >
                       Resume
@@ -101,16 +119,17 @@ const Navbar = () => {
                   </HoverCard.Trigger>
                   <HoverCard.Portal>
                     <HoverCard.Content
-                      className="HoverCardContent"
+                      className=""
                       sideOffset={5}
                     >
-                      <div className="rounded bg-sky-12 p-3 shadow">
+                      <div className="rounded p-3 shadow">
                         Download as a PDF : )
                       </div>
                       <HoverCard.Arrow className="HoverCardArrow" />
                     </HoverCard.Content>
                   </HoverCard.Portal>
                 </HoverCard.Root> */}
+
                 {currentTheme === "dark" ? (
                   <button
                     onClick={() => setTheme("light")}
